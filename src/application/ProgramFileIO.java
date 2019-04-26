@@ -9,6 +9,7 @@ public class ProgramFileIO {
 	public static void main(String[] args) {
 		
 		File file = new File("/home/israel/Documentos/teste.txt");
+		System.out.println("File: " + file);
 		Scanner sc = null;
 		
 		try {
