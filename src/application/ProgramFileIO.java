@@ -9,7 +9,6 @@ public class ProgramFileIO {
 	public static void main(String[] args) {
 		
 		File file = new File("/home/israel/Documentos/teste.txt");
-		System.out.println("File: "+ file);
 		Scanner sc = null;
 		
 		try {
@@ -21,7 +20,6 @@ public class ProgramFileIO {
 			System.out.println("Error opening file: " + e.getMessage());
 		}finally {
 			if (sc != null) {
-				// Fecha o Scanner
 				sc.close();
 			}
 			System.out.println("Finally block executed");
